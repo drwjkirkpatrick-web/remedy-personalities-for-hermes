@@ -1,0 +1,15 @@
+OOREP Data License Notice
+=========================
+
+This project references mental/emotional symptom data from OOREP (Open Online Repertory),
+an open-source homeopathic repertorization system.
+
+- Source: https://github.com/nondeterministic/oorep
+- License: GNU General Public License v3 (GPL v3)
+- Author: Andreas Bauer
+
+The OOREP database (remedies, rubrics, and remedy-grade links) is NOT redistributed in this
+repository. Only original personality descriptions, workflow mappings, and narrative profiles
+— authored independently from the raw data — are included here.
+
+For the full OOREP database, visit: https://www.oorep.com/

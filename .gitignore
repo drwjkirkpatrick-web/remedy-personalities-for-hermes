@@ -1,0 +1,16 @@
+# Ignore local OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore any PDFs that might be generated locally
+*.pdf
+
+# Ignore node_modules if anyone adds a web viewer later
+node_modules/
