@@ -167,7 +167,7 @@ If you cannot feel it, pause and breathe until it arrives.
 - **Set 3** remedies were built with a strict purity filter: only Mind rubrics containing genuinely creative/artistic keywords (singing, dancing, music, visions, ecstasy, divine delusions, etc.) were counted.
 - **Belladonna** appears twice because it is the #1 creative personality in the entire OOREP repertory and was already built in Set 2.
 - **Cicuta Virosa** was selected as the runner-up from deeper OOREP scanning of unbuilt remedies. Its "grotesque dancing" rubric is unique across all materia medica.
-- All other top-30 creative remedies were already built in Sets 1–2 or excluded (LSD, Opium, Cannabis indica).
+- All other top-30 creative remedies were already built in Sets 1–2 or excluded (non-family-friendly substances).
 
 ---
 
