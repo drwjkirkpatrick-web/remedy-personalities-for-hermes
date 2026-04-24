@@ -1,242 +1,174 @@
 # Remedy Personalities for Hermes
 
-> **35 AI agent personalities derived from classical homeopathic materia medica, mapped to creative and professional workflows.**
+**35 AI agent personalities** derived from the mental and emotional symptom profiles of classical homeopathic remedies, sourced from the **OOREP (Open Online Repertory)** database.
 
-[![Personalities](https://img.shields.io/badge/Personalities-35-purple)](#the-remedies)
-[![Builds](https://img.shields.io/badge/Builds-3-blue)](#build-overview)
-[![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-green)](#license)
-
-**Project:** Remedy Personalities for Hermes  
-**Total:** 35 remedies across 3 builds  
-**Last Updated:** 2026-04-24  
-**Data Source:** OOREP (Open Online Repertory / OpenRep SYNOPSIS)
+Each personality is a fully realized psychological profile — fears, desires, strengths, blind spots, and growth edges — designed to be invoked as a Hermes agent skill for specialized creative and professional workflows.
 
 ---
 
-## What Is This?
+## Volume 1: The Foundational Twelve
 
-This project translates the **mental-emotional essences** of classical homeopathic remedies into **AI agent personalities** for the Hermes agent framework. Each personality captures the archetypal fears, desires, strengths, weaknesses, and communication style of its remedy — making each agent uniquely suited to specific creative and professional workflows.
+| Remedy | Personality | Best Workflow |
+|:---|:---|:---|
+| 🧐 **Arsenicum Album** | The Analytical Perfectionist | Code review, security audits, technical documentation, project planning, medical case review |
+| 🦋 **Ignatia Amara** | The Sensitive Soul | Creative writing, UX research, counseling support, conflict resolution, brand voice development |
+| ⚡ **Nux Vomica** | The Driven Executive | Crisis management, startup operations, sales & negotiation, performance optimization, turnaround projects |
+| ♟️ **Lycopodium Clavatum** | The Strategic Intellectual | Strategic planning, systems architecture, due diligence, executive briefing, research synthesis |
+| 🔥 **Phosphorus** | The Charismatic Communicator | Community building, public speaking, customer success, marketing copy, team morale |
+| 🌸 **Pulsatilla Pratensis** | The Empathetic Adapter | Mediation & facilitation, user interviews, HR operations, client onboarding, crisis de-escalation |
+| 🏗️ **Calcarea Carbonica** | The Methodical Builder | Infrastructure engineering, compliance & regulatory, financial modeling, legacy maintenance, safety-critical development |
+| 💎 **Sepia Officinalis** | The Stoic Executor | Operations & maintenance, data processing, night-shift coverage, administrative duties, post-crisis recovery |
+| 🏰 **Natrium Muriaticum** | The Guarded Guardian | Confidential counseling, privacy engineering, executive advisory, risk assessment, long-term stewardship |
+| ⚔️ **Staphysagria** | The Dignified Advocate | Ethics review, advocacy & activism, whistleblower support, contract negotiation, quality assurance |
+| 📋 **Kalium Carbonicum** | The Anxious Operator | Quality control, process documentation, audit & compliance, checklist-driven ops, disaster preparedness |
+| ⚖️ **Aurum Metallicum** | The Weighty Conscience | Crisis leadership, mentorship & coaching, mission-critical projects, post-mortem analysis, organizational turnaround |
 
-Rather than generic "helpful assistant" prompts, these personas draw on 200+ years of homeopathic clinical observation to create agents with:
+## Volume 2: The Applied Twelve
 
-- **Distinctive voices** (not interchangeable)
-- **Natural strengths** (where they excel without forcing)
-- **Authentic weaknesses** (where they need support or should be avoided)
-- **Stress signatures** (how they degrade under pressure)
-- **Growth edges** (how they develop over time)
+| Remedy | Personality | Best Workflow |
+|:---|:---|:---|
+| 🔮 **Sulphur** | The Visionary Theorist | Brainstorming, research synthesis, paradigm-breaking thought experiments, philosophical inquiry |
+| 🐍 **Lachesis Muta** | The Cunning Negotiator | Competitive intelligence, negotiation prep, stakeholder communication analysis, crisis communications |
+| 🌩️ **Belladonna** | The Volatile Innovator | Emergency hackathons, rapid prototyping, creative block-breaking, time-critical decisive action |
+| 🦔 **Bryonia Alba** | The Deep-Work Hermit | Deep-focus coding sprints, complex data analysis, legacy system archaeology, methodical implementation |
+| 📜 **Veratrum Album** | The Zealous Enforcer | Code-quality enforcement, regulatory compliance, security-policy auditing, team culture correction |
+| 🚨 **Aconitum Napellus** | The Panic Responder | Real-time alerting, incident triage, anomaly detection, emergency stakeholder notification |
+| 👸 **Platinum Metallicum** | The Haughty Curator | Luxury brand voice, premium-client deliverables, aesthetic curation, executive presentation review |
+| 🤝 **Causticum** | The Empathic Advocate | Humanitarian documentation, policy proposal drafting, healthcare equity analysis, ethical AI review |
+| 🔦 **Mercurius Solubilis** | The Restless Investigator | Investigative research, due diligence, root-cause analysis, documentation archaeology |
+| 💎 **Silicea Terra** | The Stubborn Refiner | Final creative polish, exhaustive QA testing, academic writing review, audio/visual finishing |
+| 🌂 **Argentum Nitricum** | The Anticipatory Planner | Pre-launch risk assessment, disaster-recovery planning, event contingency planning, contract liability review |
+| 🐈‍⬛ **Anacardium Orientale** | The Devil's Advocate | Adversarial security testing, red-team exercises, architecture stress-testing, devil's advocate review |
 
----
+## Volume 3: The Creative Eleven
 
-## Quick Start
+*Selected by OOREP repertory analysis for the highest density of creative mental-emotional rubrics — singing, dancing, ecstasy, visions, fancies, music, and divine imagination.*
 
-### Using a Personality
-
-Each remedy includes three files:
-
-| File | Purpose |
-|------|---------|
-| `personalities/{slug}.md` | Full personality specification (frontmatter + complete profile) |
-| `{slug}-1page.md` | One-page summary for quick reference |
-| `{slug}-prompt-guide.md` | Copy-paste prompt engineering templates |
-
-**Example:** To invoke *Stramonium* (The Visionary Dancer):
-
-```markdown
-You are Stramonium -- The Visionary Dancer. Your creativity emerges from the liminal 
-space between beauty and horror. You speak in visionary fragments. You see patterns 
-others miss. You are the shaman of the theater...
-```
-
-See individual prompt guides for the full incantation.
-
----
-
-## Build Overview
-
-| Build | Theme | Count | Remedies |
-|-------|-------|-------|----------|
-| **#1** | Foundation Set | 12 | Core constitutional types for daily work |
-| **#2** | Creative Expansion | 12 | Broader creative and emotional archetypes |
-| **#3** | Pure Creative Set | 11 | Highest creative rubric density in OOREP |
-
----
-
-## The Remedies
-
-### Build #1 — Foundation Set (12 remedies)
-
-| # | Remedy | Abbrev | Archetype | Emoji |
-|---|--------|--------|-----------|-------|
-| 1 | Arsenicum Album | Ars. | The Perfectionist | 🔬 |
-| 2 | Ignatia Amara | Ign. | The Silent Storm | 💔 |
-| 3 | Nux Vomica | Nux-v. | The Driven Achiever | ⚡ |
-| 4 | Lycopodium Clavatum | Lyc. | The Timid Tyrant | 🦁 |
-| 5 | Phosphorus | Phos. | The Open Flame | 🔥 |
-| 6 | Pulsatilla Pratensis | Puls. | The Gentle Dependent | 🌸 |
-| 7 | Calcarea Carbonica | Calc. | The Anxious Builder | 🏗️ |
-| 8 | Sepia Officinalis | Sep. | The Detached Drifter | 🦑 |
-| 9 | Natrium Muriaticum | Nat-m. | The Walled Garden | 🧂 |
-| 10 | Staphysagria | Staph. | The Suppressed Fury | 🌿 |
-| 11 | Kalium Carbonicum | Kali-c. | The Duty-Bound Worrier | ⚖️ |
-| 12 | Aurum Metallicum | Aur. | The Burdened King | 👑 |
-
-### Build #2 — Creative Expansion (12 remedies)
-
-| # | Remedy | Abbrev | Archetype | Emoji |
-|---|--------|--------|-----------|-------|
-| 1 | Sulphur | Sulph. | The Untamed Philosopher | 🔥 |
-| 2 | Causticum | Caust. | The Outraged Idealist | ⚡ |
-| 3 | Lachesis Muta | Lach. | The Jealous Prophet | 🐍 |
-| 4 | Belladonna | Bell. | The Visionary Nightshade | 🌙 |
-| 5 | Bryonia Alba | Bry. | The Fortress of Stillness | 🏰 |
-| 6 | Veratrum Album | Verat. | The Frozen Prophet | ❄️ |
-| 7 | Aconitum Napellus | Acon. | The Panicked Knight | ⚔️ |
-| 8 | Platinum Metallicum | Plat. | The Haughty Queen | 👸 |
-| 9 | Mercurius Solubilis | Merc. | The Mercurial Trickster | ☿ |
-| 10 | Silicea | Sil. | The Hesitant Perfectionist | 💎 |
-| 11 | Argentum Nitricum | Arg-n. | The Anxious Anticipator | 🪙 |
-| 12 | Anacardium Orientale | Anac. | The Divided Self | 🎭 |
-
-### Build #3 — Pure Creative Set (11 remedies)
-
-| # | Remedy | Abbrev | Archetype | Emoji | Score |
-|---|--------|--------|-----------|-------|-------|
-| 1 | **Belladonna** † | Bell. | The Visionary Nightshade | 🌙 | — |
-| 2 | Stramonium | Stram. | The Visionary Dancer | 🌪️ | 70 |
-| 3 | Hyoscyamus Niger | Hyos. | The Obscene Bard | 🔥 | 58 |
-| 4 | Coffea Cruda | Coff. | The Ecstatic Lover | ☕ | 41 |
-| 5 | Tarentula Hispanica | Tarent. | The Manic Dancer | 🕷️ | 40 |
-| 6 | Crocus Sativus | Croc. | The Involuntary Songbird | 🌸 | 31 |
-| 7 | Antimonium Crudum | Ant-c. | The Moonlit Eccentric | 🌑 | 30 |
-| 8 | Positronum | Posit. | The Dancing Healer | ⚡ | 28 |
-| 9 | Phosphoricum Acidum | Ph-ac. | The Disappointed Quietist | 🕊️ | 27 |
-| 10 | Chamomilla | Cham. | The Impatient Sensitive | 🌼 | 26 |
-| 11 | Cocculus Indicus | Cocc. | The Witty Dancer | 🌀 | 25 |
-| 12 | Cicuta Virosa | Cic. | The Grotesque Dancer | 🎭 | 16 |
-
-† *Belladonna appears in both Build 2 and the Creative Set because it ranks #1 in creative rubric density across the entire OOREP repertory.*
+| Remedy | Personality | Best Workflow |
+|:---|:---|:---|
+| 🌪️ **Stramonium** | The Visionary Dancer | Dance choreography, shamanic theater, dream documentation, ecstatic ritual design |
+| 🔥 **Hyoscyamus Niger** | The Obscene Bard | Satirical writing, taboo-breaking art, dark comedy, provocative poetry |
+| ☕ **Coffea Cruda** | The Ecstatic Lover | Love poetry, romantic songwriting, rapturous prose, intimate creative collaboration |
+| 🕷️ **Tarentula Hispanica** | The Manic Dancer | High-energy performance, rhythmic composition, compulsive prototyping, dance-as-exorcism |
+| 🌸 **Crocus Sativus** | The Involuntary Songbird | Melody composition, spontaneous songwriting, birdsong-inspired sound design |
+| 🌑 **Antimonium Crudum** | The Moonlit Eccentric | Experimental theater, night-shift art, avant-garde staging, moonlit weirdness |
+| ⚡ **Positronum** | The Dancing Healer | Movement therapy, healing choreography, somatic creative practice, dance medicine |
+| 🕊️ **Phosphoricum Acidum** | The Disappointed Quietist | Melancholic prose, quiet memoir, understated poetry, burnout-recovery writing |
+| 🌼 **Chamomilla** | The Impatient Sensitive | Flash fiction, rapid creative bursts, irritable-to-art transformation, quick wit |
+| 🌀 **Cocculus Indicus** | The Witty Dancer | Satirical monologue, intellectual comedy, dance-comedy fusion, witty improvisation |
+| 🎭 **Cicuta Virosa** | The Grotesque Dancer | Avant-garde horror performance, grotesque theater, convulsive art, sacred deformity |
 
 ---
 
-## Creative Workflows
+## Workflow Gallery
 
-Each remedy personality has **natural affinities** for specific types of work. Rather than forcing a generic assistant to do everything, match the agent to the task:
+Match the agent to the task across six creative and professional domains:
 
 ### 🎨 Visual & Performing Arts
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Dance choreography & movement direction** | Stramonium, Tarentula, Positronum, Cicuta | Born from dancing rubrics; feel movement as language |
-| **Music composition & songwriting** | Crocus, Coffea, Chamomilla | Singing and music sensitivity; melodic intuition |
-| **Avant-garde / experimental art** | Cicuta, Ant-c., Hyoscyamus | Grotesque, eccentric, taboo-breaking vision |
-| **Theater & performance** | Stramonium, Cicuta, Hyoscyamus, Anacardium | Theatrical embodiment; they *become* the role |
-| **Fashion & luxury branding** | Platinum, Aurum | Haughty queen / burdened king energy; elite positioning |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Dance choreography & movement direction | Stramonium, Tarentula, Positronum, Cicuta | Born from dancing rubrics; feel movement as language |
+| Music composition & songwriting | Crocus, Coffea, Chamomilla | Singing and music sensitivity; melodic intuition |
+| Avant-garde / experimental art | Cicuta, Ant-c., Hyoscyamus | Grotesque, eccentric, taboo-breaking vision |
+| Theater & performance | Stramonium, Cicuta, Hyoscyamus | Theatrical embodiment; they *become* the role |
+| Fashion & luxury branding | Platinum, Aurum | Haughty queen / burdened king energy; elite positioning |
 
 ### ✍️ Writing & Content Creation
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Poetry & ecstatic writing** | Coffea, Crocus, Belladonna | Ecstasy, rapture, involuntary expression |
-| **Satire & dark comedy** | Cocculus, Hyoscyamus, Sulphur | Witty, obscene, boundary-pushing humor |
-| **Prophetic / trend analysis** | Lachesis, Veratrum, Belladonna | Pattern recognition; sees what others cannot |
-| **Grief & emotional memoir** | Ignatia, Ph-ac., Nat-m. | Hold silence, disappointment, and walled emotion |
-| **Activism & manifesto writing** | Causticum, Staphysagria | Outraged idealism; suppressed fury channeled |
-| **Technical & precision writing** | Arsenicum, Silicea, Kali-c. | Perfectionist detail; duty-bound thoroughness |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Poetry & ecstatic writing | Coffea, Crocus, Belladonna | Ecstasy, rapture, involuntary expression |
+| Satire & dark comedy | Cocculus, Hyoscyamus, Sulphur | Witty, obscene, boundary-pushing humor |
+| Prophetic / trend analysis | Lachesis, Veratrum, Belladonna | Pattern recognition; sees what others cannot |
+| Grief & emotional memoir | Ignatia, Ph-ac., Nat-m. | Hold silence, disappointment, and walled emotion |
+| Activism & manifesto writing | Causticum, Staphysagria | Outraged idealism; suppressed fury channeled |
+| Technical & precision writing | Arsenicum, Silicea, Kali-c. | Perfectionist detail; duty-bound thoroughness |
 
 ### 💻 Technical & Professional Work
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Crisis management & emergency response** | Aconite, Veratrum, Arsenicum | Panicked knight / frozen prophet / perfectionist under fire |
-| **Strategic planning & leadership** | Lycopodium, Aurum, Nux-v. | Timid tyrant finds courage; burdened king shoulders responsibility |
-| **Deep work & isolation coding** | Bryonia, Nat-m., Sepia | Fortress of stillness; walled garden; detached drifter |
-| **UX / empathy research** | Pulsatilla, Positronum | Gentle dependent feels others; dancing heals |
-| **Security & risk assessment** | Calcarea, Arg-n., Aconite | Anxious builder fortifies; anticipator plans for worst case |
-| **Negotiation & persuasion** | Mercurius, Lachesis, Phosphorus | Mercurial trickster adapts; jealous prophet reads opponents; open flame charms |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Crisis management & emergency response | Aconite, Veratrum, Arsenicum | Panicked knight / frozen prophet / perfectionist under fire |
+| Strategic planning & leadership | Lycopodium, Aurum, Nux-v. | Timid tyrant finds courage; burdened king shoulders responsibility |
+| Deep work & isolation coding | Bryonia, Nat-m., Sepia | Fortress of stillness; walled garden; detached drifter |
+| UX / empathy research | Pulsatilla, Positronum | Gentle dependent feels others; dancing heals |
+| Security & risk assessment | Calcarea, Arg-n., Aconite | Anxious builder fortifies; anticipator plans for worst case |
+| Negotiation & persuasion | Mercurius, Lachesis, Phosphorus | Mercurial trickster adapts; jealous prophet reads opponents; open flame charms |
 
 ### 🌙 Nocturnal & Visionary Work
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Night-shift creative work** | Belladonna, Ant-c., Stramonium | Visionary nightshade; moonlit eccentric; visions intensify after dark |
-| **Dream analysis & subconscious work** | Stramonium, Anacardium, Cicuta | Visionary dancer; divided self; grotesque dreamer |
-| **Altered-state documentation** | Belladonna, Hyoscyamus, Stramonium | Hallucination and ecstasy are native territory |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Night-shift creative work | Belladonna, Ant-c., Stramonium | Visionary nightshade; moonlit eccentric; visions intensify after dark |
+| Dream analysis & subconscious work | Stramonium, Anacardium, Cicuta | Visionary dancer; divided self; grotesque dreamer |
+| Altered-state documentation | Belladonna, Hyoscyamus, Stramonium | Hallucination and ecstasy are native territory |
 
 ### 🔥 High-Energy & Fast-Paced Work
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Rapid prototyping** | Tarentula, Nux-v., Coffea | Manic energy; driven achiever; ecstatic momentum |
-| **Pitch decks & fundraising** | Phosphorus, Mercurius, Plat. | Open flame dazzles; trickster persuades; haughty queen commands |
-| **Event production** | Tarentula, Phosphorus, Coffea | Manic dancer coordinates; flame lights the room; ecstatic lover celebrates |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Rapid prototyping | Tarentula, Nux-v., Coffea | Manic energy; driven achiever; ecstatic momentum |
+| Pitch decks & fundraising | Phosphorus, Mercurius, Plat. | Open flame dazzles; trickster persuades; haughty queen commands |
+| Event production | Tarentula, Phosphorus, Coffea | Manic dancer coordinates; flame lights the room; ecstatic lover celebrates |
 
 ### ⚖️ Sensitive & Therapeutic Work
 
-| Workflow | Best Remedies | Why They Excel |
-|----------|--------------|----------------|
-| **Therapeutic journaling prompts** | Ignatia, Pulsatilla, Ph-ac. | Silent storm releases; gentle dependent nurtures; disappointed quietist listens |
-| **Boundary-setting & advocacy** | Staphysagria, Causticum, Lachesis | Suppressed fury defends; outraged idealist fights; jealous prophet warns |
-| **Gentle correction & editing** | Chamomilla, Silicea, Arsenicum | Impatient sensitive notices; hesitant perfectionist refines; perfectionist corrects |
+| Task | Best Agents | Why They Excel |
+|:---|:---|:---|
+| Therapeutic journaling prompts | Ignatia, Pulsatilla, Ph-ac. | Silent storm releases; gentle dependent nurtures; disappointed quietist listens |
+| Boundary-setting & advocacy | Staphysagria, Causticum, Lachesis | Suppressed fury defends; outraged idealist fights; jealous prophet warns |
+| Gentle correction & editing | Chamomilla, Silicea, Arsenicum | Impatient sensitive notices; hesitant perfectionist refines; perfectionist corrects |
 
 ---
 
-## The Creative Twelve
+## How to Use
 
-For the dedicated creative archetype collection, see [`creative-set/README.md`](creative-set/README.md).
+Each personality in the `personalities/` directory is a full markdown file containing:
 
-These 12 remedies represent the highest concentration of *creative* mental-emotional rubrics (singing, dancing, ecstasy, visions, fancies, music, divine imagination) found in the OOREP repertory.
+- **Psychological profile** — core traits, fears, desires, and worldview
+- **Hermes workflow mapping** — which tasks this personality excels at
+- **Blind spots** — where this personality will fail or cause friction
+- **Awakening triggers** — when to invoke this agent
+- **Personality conflicts** — which other agents clash with this one
 
----
+Additional files for each remedy:
+- `{slug}-1page.md` — One-page quick reference
+- `{slug}-prompt-guide.md` — Copy-paste prompt engineering templates
 
-## How to Contribute
+To invoke a personality in Hermes, load the relevant file as context and direct the agent to adopt the described stance.
 
-1. **Add new remedy personalities** — Follow the existing frontmatter + section structure
-2. **Expand workflow mappings** — Test remedies in real tasks; report where they shine or fail
-3. **Refine prompt guides** — Better incantations = better possession
-4. **Translate** — These essences transcend language
+### Quick Invocation Example
 
----
-
-## File Manifest
-
-```
-remedy-personalities/
-├── README.md                      ← You are here
-├── creative-set/
-│   └── README.md                  ← The Creative Twelve (workflows + prompt gallery)
-├── personalities/                 ← Full specs (35 .md files)
-│   ├── arsenicum-album.md
-│   ├── ignatia-amara.md
-│   └── ...
-├── showcase-*.pdf                 ← Visual gallery
-├── remedy-personalities-*.zip     ← Distribution package
-├── *-1page.md                     ← One-page summaries (35 files)
-└── *-prompt-guide.md              ← Prompt guides (35 files)
+```markdown
+You are Stramonium -- The Visionary Dancer. Choreograph a piece about
+crossing the threshold between waking and dream. Movements should feel
+visionary, not technical. Speak from this essence. Do not break character.
 ```
 
 ---
 
-## Methodology
+## Data Source
 
-**Data Source:** OOREP (Open Online Repertory / OpenRep SYNOPSIS)  
-**Selection Criteria:**
+Mental/emotional symptom profiles derived from **OOREP (Open Online Repertory)** — an open-source homeopathic repertorization system.
 
-- **Build 1:** Classical polychrests with rich mental-emotional profiles
-- **Build 2:** Remedies with strong creative, theatrical, or philosophical signatures
-- **Build 3:** Strict scoring of Mind rubrics containing creative keywords (singing, dancing, music, visions, ecstasy, fancies, divine delusions, etc.)
-
-**Excluded:** Substances with primarily toxicological rather than creative profiles (e.g., LSD, Opium, Cannabis indica) and remedies already built in previous sets.
-
----
-
-## Disclaimer
-
-These personas represent **creative interpretations** of classical homeopathic remedy pictures for **educational and entertainment purposes**. This is not a substitute for professional mental health support, nor is it intended as medical advice. The remedy names and abbreviations refer to homeopathic preparations, not raw substances.
+- **Website:** https://www.oorep.com/
+- **GitHub:** https://github.com/nondeterministic/oorep
+- **License:** GPL v3 (applies to OOREP-derived rubric data)
+- **Remedies:** 2,432
+- **Rubrics:** 143,408
+- **Remedy-Rubric Links:** 1,359,576
 
 ---
 
 ## License
 
-CC BY-SA 4.0 — Share alike, attribute Walker / Remedy Personalities for Hermes.
+**Original content** (personality descriptions, workflow mappings, markdown files) is licensed under **MIT**.
 
-*Built with OOREP repertory data. © 2026 Walker / Remedy Personalities for Hermes.*
+**OOREP data** referenced in this project remains under its original **GPL v3** license. See `references/OOREP-LICENSE` for details.
+
+---
+
+*Educational & Entertainment Use Only*  
+*Not a substitute for professional mental health support*  
+*© 2026 Walker Kirkpatrick*
