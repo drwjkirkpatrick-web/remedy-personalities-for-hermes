@@ -1,5 +1,7 @@
 # Remedy Personalities for Hermes
 
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
+
 **35 AI agent personalities** derived from the mental and emotional symptom profiles of classical homeopathic remedies, sourced from the **OOREP (Open Online Repertory)** database.
 
 Each personality is a fully realized psychological profile — fears, desires, strengths, blind spots, and growth edges — designed to be invoked as a Hermes agent skill for specialized creative and professional workflows.
