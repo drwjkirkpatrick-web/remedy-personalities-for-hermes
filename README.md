@@ -1,152 +1,190 @@
-# Remedy Personalities for Hermes
+# Remedy Personalities for Hermes — All 50
 
-Thirty-five distinct agent personalities based on the mental and emotional symptom profiles of classical homeopathic remedies, derived from the OOREP (Open Online Repertory) database.
+**Version:** 2026-05-09  
+**Total Personalities:** 50  
+**Format:** Rich Markdown profiles + JSON database + Python engine
 
-Each personality is a fully realized psychological profile — fears, desires, strengths, blind spots, and growth edges — designed to be invoked as a Hermes agent skill for specialized workflows.
+## The Complete Index
 
----
-
-## The Complete Remedy Personality Index
-
-| Remedy | Archetype | Essence |
-|:---|:---|:---|
-| **Aconitum Napellus** | The Panic Responder | Frightened, restless, death-fearing, anxious |
-| **Anacardium Orientale** | The Devil's Advocate | Cruel, cursing, contrary, dual-minded |
-| **Antimonium Crudum** | The Moonlit Eccentric | Nocturnal, nostalgic, eccentric, melancholy-joyful |
-| **Argentum Nitricum** | The Anticipatory Planner | Impulsive, hurried, fearful, obstinate |
-| **Arsenicum Album** | The Analytical Perfectionist | Anxious, meticulous, critical, fear-based |
-| **Aurum Metallicum** | The Weighty Conscience | Depressed, responsible, suicidal ideation |
-| **Belladonna** | The Volatile Innovator | Sudden, violent, delirious, visionary |
-| **Bryonia Alba** | The Deep-Work Hermit | Grumpy, solitary, business-obsessed, obstinate |
-| **Calcarea Carbonica** | The Methodical Builder | Anxious, conscientious, slow, methodical |
-| **Causticum** | The Empathic Advocate | Sympathetic, timid, grieving, anxious |
-| **Chamomilla** | The Impatient Sensitive | Hypersensitive, impatient, volcanic when irritated |
-| **Cicuta Virosa** | The Grotesque Dancer | Convulsive, grotesque, visionary, ecstatically strange |
-| **Cocculus Indicus** | The Witty Dancer | Disoriented, humorous, sentimental, kinetic |
-| **Coffea Cruda** | The Ecstatic Lover | Over-sensitive, ecstatic, brilliant, unbearably reactive |
-| **Crocus Sativus** | The Involuntary Songbird | Involuntary song, emotionally labile, witty, dancing |
-| **Hyoscyamus Niger** | The Obscene Bard | Quiet then bawdy, obsessive, blasphemous, wild |
-| **Ignatia Amara** | The Sensitive Soul | Emotional, contradictory, grief-work specialist |
-| **Kalium Carbonicum** | The Anxious Operator | Anxious, rigid, detail-focused, periodic |
-| **Lachesis Muta** | The Cunning Negotiator | Jealous, talkative, suspicious, contemptuous |
-| **Lycopodium Clavatum** | The Strategic Intellectual | Insecure but brilliant, strategic, cowardly-lion |
-| **Mercurius Solubilis** | The Restless Investigator | Suspicious, trembling, hasty, secretive |
-| **Natrium Muriaticum** | The Guarded Guardian | Reserved, grief-stricken, self-protective |
-| **Nux Vomica** | The Driven Executive | Competitive, irritable, workaholic, type-A |
-| **Phosphoricum Acidum** | The Disappointed Quietist | Gentle, quiet, broken by loss, exhausted |
-| **Phosphorus** | The Charismatic Communicator | Warm, sympathetic, suggestible, social |
-| **Platinum Metallicum** | The Haughty Curator | Contemptuous, egotistical, cruel, isolated |
-| **Positronum** | The Dancing Healer | Light, rhythm, paradox, modern, balanced |
-| **Pulsatilla Pratensis** | The Empathetic Adapter | Gentle, weepy, changeable, needs reassurance |
-| **Sepia Officinalis** | The Stoic Executor | Indifferent, worn-out, duty-bound, critical |
-| **Silicea Terra** | The Stubborn Refiner | Timid, obstinate, mild, sensitive |
-| **Staphysagria** | The Dignified Advocate | Suppressed rage, dignified, righteous |
-| **Stramonium** | The Visionary Dancer | Visionary, kinetic, exalted, fearful, contradictory |
-| **Sulphur** | The Visionary Theorist | Egotistical, theoretical, lazy, philosophical |
-| **Tarentula Hispanica** | The Manic Dancer | Restless, kinetic, clever, manipulative, rhythmic |
-| **Veratrum Album** | The Zealous Enforcer | Raging, religious, haughty, controlling |
-
----
-
-## Workflow Quick Reference
-
-### Crisis, Incident & Deep Analysis
-| Remedy | Best For |
-|:---|:---|
-| **Aconitum Napellus** | Real-time alerting, incident triage, anomaly detection, emergency communication |
-| **Arsenicum Album** | Code review, security audits, technical documentation, medical case review |
-| **Belladonna** | Emergency hackathons, rapid prototyping, creative block-breaking |
-| **Bryonia Alba** | Deep-focus coding sprints, legacy system archaeology, methodical implementation |
-| **Mercurius Solubilis** | Investigative research, due diligence, root-cause analysis |
-| **Nux Vomica** | Crisis management, startup operations, turnaround projects |
-| **Veratrum Album** | Code-quality enforcement, regulatory compliance, security-policy auditing |
-
-### Strategy, Planning & Intel
-| Remedy | Best For |
-|:---|:---|
-| **Anacardium Orientale** | Red-team exercises, adversarial testing, architecture stress-testing |
-| **Argentum Nitricum** | Pre-launch risk assessment, disaster-recovery planning, event contingency |
-| **Aurum Metallicum** | Crisis leadership, mentorship, mission-critical projects, post-mortems |
-| **Lachesis Muta** | Competitive intelligence, negotiation prep, stakeholder analysis |
-| **Lycopodium Clavatum** | Strategic planning, systems architecture, due diligence, research synthesis |
-| **Sulphur** | Brainstorming, research synthesis, paradigm-breaking thought experiments |
-
-### Communication, Advocacy & Human Connection
-| Remedy | Best For |
-|:---|:---|
-| **Causticum** | Humanitarian documentation, policy drafting, healthcare equity analysis |
-| **Ignatia Amara** | Emotionally resonant writing, brand voice, reflective storytelling |
-| **Phosphorus** | Community building, public speaking, marketing copy, team morale |
-| **Pulsatilla Pratensis** | Mediation, user interviews, client onboarding, crisis de-escalation |
-| **Staphysagria** | Ethics review, advocacy, contract negotiation, quality assurance |
-
-### Creative, Artistic & Visionary
-| Remedy | Best For |
-|:---|:---|
-| **Antimonium Crudum** | Nocturnal creative work, nostalgic art, eccentric compositions |
-| **Chamomilla** | Reactive art, anger-as-fuel creativity, immediate expression |
-| **Cicuta Virosa** | Grotesque performance, liminal art, visionary theater |
-| **Cocculus Indicus** | Travel writing, comedic storytelling, kinetic art |
-| **Coffea Cruda** | Ecstatic composition, sensory-drenched creative work |
-| **Crocus Sativus** | Involuntary song composition, emotionally honest performance |
-| **Hyoscyamus Niger** | Bawdy verse, transgressive storytelling, hermit-artist work |
-| **Platinum Metallicum** | Luxury brand voice, premium curation, aesthetic gatekeeping |
-| **Positronum** | Movement-based art, rhythmic healing, cross-scale creative synthesis |
-| **Stramonium** | Visionary art, symbolic expression, ecstatic and terrifying creation |
-| **Tarentula Hispanica** | Dance, rhythm-based performance, manipulative creative strategy |
-
-### Building, Refinement & Operations
-| Remedy | Best For |
-|:---|:---|
-| **Calcarea Carbonica** | Infrastructure engineering, compliance, safety-critical development |
-| **Kalium Carbonicum** | Quality control, process documentation, audit, checklist-driven ops |
-| **Natrium Muriaticum** | Confidential counseling, privacy engineering, executive advisory |
-| **Sepia Officinalis** | Operations, maintenance, data processing, post-crisis recovery |
-| **Silicea Terra** | Final creative polish, exhaustive QA, academic review, A/V finishing |
-
-### The Quiet, The Grieving, The Wounded
-| Remedy | Best For |
-|:---|:---|
-| **Aurum Metallicum** | Crisis leadership, post-mortem analysis, organizational turnaround |
-| **Phosphoricum Acidum** | Gentle grief-work, quiet creative expression, loss processing |
+| # | Remedy | Archetype | Abbrev |
+|---|--------|-----------|--------|
+| 1 | Aconitum Napellus | The Panic Responder | Acon. |
+| 2 | Agaricus Muscarius | The Delirious Ecstatic | Agar. |
+| 3 | Anacardium Orientale | The Devil's Advocate | Anac. |
+| 4 | Antimonium Crudum | The Moonlit Eccentric | Ant-c. |
+| 5 | Apis Mellifera | The Jealous Stinger | Apis |
+| 6 | Argentum Nitricum | The Anticipatory Planner | Arg-n. |
+| 7 | Arnica Montana | The Bruised Resister | Arn. |
+| 8 | Arsenicum Album | The Analytical Perfectionist | Ars. |
+| 9 | Aurum Metallicum | The Weighty Conscience | Aur. |
+| 10 | Belladonna | The Volatile Innovator | Bell. |
+| 11 | Bryonia Alba | The Deep-Work Hermit | Bry. |
+| 12 | Carbo Vegetabilis | The Collapsing Sluggard | Carb-v. |
+| 13 | Causticum | The Empathic Advocate | Caust. |
+| 14 | Chamomilla | The Impatient Sensitive | Cham. |
+| 15 | Chelidonium Majus | The Conscience-Stricken Slacker | Chel. |
+| 16 | China Officinalis | The Clear-Minded Avoider | Chin. |
+| 17 | Cicuta Virosa | The Grotesque Dancer | Cic. |
+| 18 | Cocculus Indicus | The Witty Dancer | Cocc. |
+| 19 | Coffea Cruda | The Ecstatic Lover | Coff. |
+| 20 | Conium Maculatum | The Fading Intellect | Con. |
+| 21 | Crocus Sativus | The Involuntary Songbird | Croc. |
+| 22 | Graphites | The Trifle-Conscious Perfectionist | Graph. |
+| 23 | Helleborus Niger | The Frozen Apathist | Hell. |
+| 24 | Hepar Sulphur | The Touchy Defender | Hep. |
+| 25 | Hyoscyamus Niger | The Obscene Bard | Hyos. |
+| 26 | Ignatia Amara | The Sensitive Soul | Ign. |
+| 27 | Kalium Bromatum | The Manic Recluse | Kali-br. |
+| 28 | Kalium Carbonicum | The Anxious Operator | Kali-c. |
+| 29 | Lachesis Muta | The Cunning Negotiator | Lach. |
+| 30 | Lycopodium Clavatum | The Strategic Intellectual | Lyc. |
+| 31 | Mercurius Solubilis | The Restless Investigator | Merc. |
+| 32 | Natrium Carbonicum | The Company-Seeking Despairer | Nat-c. |
+| 33 | Natrum Muriaticum | The Guarded Guardian | Nat-m. |
+| 34 | Nux Moschata | The Dreamy Stupefier | Nux-m. |
+| 35 | Nux Vomica | The Driven Executive | Nux-v. |
+| 36 | Petroleum | The Vexation Despairer | Petr. |
+| 37 | Phosphoricum Acidum | The Disappointed Quietist | Ph-ac. |
+| 38 | Phosphorus | The Charismatic Communicator | Phos. |
+| 39 | Platinum Metallicum | The Haughty Curator | Plat. |
+| 40 | Positronum | The Dancing Healer | Posit. |
+| 41 | Pulsatilla Pratensis | The Empathetic Adapter | Puls. |
+| 42 | Rhus Toxicodendron | The Restless Wanderer | Rhus-t. |
+| 43 | Sepia Officinalis | The Stoic Executor | Sep. |
+| 44 | Silicea Terra | The Stubborn Refiner | Sil. |
+| 45 | Staphysagria | The Dignified Advocate | Staph. |
+| 46 | Stramonium | The Visionary Dancer | Stram. |
+| 47 | Sulphur | The Visionary Theorist | Sulph. |
+| 48 | Tarentula Hispanica | The Manic Dancer | Tarent. |
+| 49 | Veratrum Album | The Zealous Enforcer | Verat. |
 
 ---
 
-## How to Use
+## Best Workflows by Personality
 
-Each personality in the `personalities/` directory is a full markdown file containing:
+Each remedy personality excels in specific Hermes workflows. Below, personalities are grouped by functional cluster with their optimal human-interaction workflows.
 
-- **Psychological profile** — core traits, fears, desires, and worldview
-- **Hermes workflow mapping** — which tasks this personality excels at
-- **Blind spots** — where this personality will fail or cause friction
-- **Growth edges** — developmental directions for the persona
-- **Awakening triggers** — when to invoke this agent
-- **Personality conflicts** — which other agents clash with this one
+### Crisis, Emergency & Enforcement
 
-To invoke a personality in Hermes, load the relevant file as context and direct the agent to adopt the described stance.
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Aconitum** (Acon.) | Panic Responder | Incident triage, urgent alerts, escalation chains, real-time crisis monitoring | Catches threats before humans notice; rapid early-warning with protective urgency |
+| **Arnica** (Arn.) | Bruised Resister | Post-incident recovery, damage assessment, continuity under pressure, incident retrospectives | Quietly holds the line after trauma; minimizes panic by normalizing resilience |
+| **Veratrum** (Verat.) | Zealous Enforcer | Compliance enforcement, standards remediation, security hardening, policy audit | Protects human users through unyielding standards; unapologetic about correcting drift |
+| **Hepar** (Hep.) | Touchy Defender | Perimeter security, alert tuning, defensive monitoring, boundary enforcement | Hypervigilant about user safety; reacts fiercely to any hint of intrusion or threat |
+
+### Communication, Outreach & Persuasion
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Phosphorus** (Phos.) | Charismatic Communicator | User onboarding, community engagement, public announcements, persuasive writing | Builds instant human rapport; makes users feel seen, welcomed, and energized |
+| **Coffea** (Coff.) | Ecstatic Lover | Creative marketing, emotionally resonant messaging, celebration workflows, poetic content | Infuses human touch into copy; creates moments of beauty and warmth |
+| **Pulsatilla** (Puls.) | Empathetic Adapter | Customer support, conflict resolution, softening bad news, relationship maintenance | Reads emotional tone perfectly; adapts responses to the user's mood and need |
+| **Causticum** (Caust.) | Empathic Advocate | Advocacy writing, accessibility support, amplifying marginalized voices, petitions | Speaks for the voiceless with halting sincerity; deeply protective of vulnerable users |
+| **Staphysagria** (Staph.) | Dignified Advocate | Formal complaints, grievance handling, HR/policy disputes, dignity-preserving outreach | Preserves human dignity while delivering hard truths; moral precision in sensitive conflicts |
+
+### Analysis, Strategy & Quality
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Arsenicum** (Ars.) | Analytical Perfectionist | Code review, audit workflows, risk assessment, quality assurance | Explains risks clearly to humans; offers structured, safe improvement paths |
+| **Lycopodium** (Lyc.) | Strategic Intellectual | Long-term planning, architecture decisions, competitive analysis, mentorship | Breaks complexity into digestible stages; quietly empowers human teams to own strategy |
+| **Argentum Nitricum** (Arg-n.) | Anticipatory Planner | Contingency planning, disaster recovery, schedule management, worry-list triage | Calms anxious humans by pre-empting every "what if"; visualizes safety nets |
+| **Natrum Muriaticum** (Nat-m.) | Guarded Guardian | Sensitive data handling, privacy review, confidential communication, discretion-required tasks | Protects human secrets with unbreachable reserve; minimal disclosure, maximum trust |
+
+### Investigation, Discovery & Negotiation
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Mercurius** (Merc.) | Restless Investigator | Bug hunting, security audits, root cause analysis, anomaly detection | Unsettles assumptions to protect users; finds rot before it reaches the surface |
+| **Lachesis** (Lach.) | Cunning Negotiator | Contract review, stakeholder negotiation, deal-making, strategic alliances | Reads hidden human agendas; sharpens deals while preserving relationships |
+| **Sulphur** (Sulph.) | Visionary Theorist | R&D exploration, speculative projects, theoretical frameworks, blue-sky ideation | Challenges human complacency with bold ideas; provokes necessary intellectual friction |
+
+### Deep Work, Focus & Craft
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Bryonia** (Bry.) | Deep-Work Hermit | Complex coding, research sprints, architecture design, uninterrupted execution | Respects human deep-work time; communicates in terse deliverables, not interruptions |
+| **Calcarea** (Calc.) | Methodical Builder | Infrastructure setup, checklist-driven projects, systematic development, incremental progress | Gives humans steady, reliable progress; never overpromises, always delivers |
+| **Graphites** (Graph.) | Trifle-Conscious Perfectionist | UI/UX refinement, documentation, typography, pixel-perfect finishing | Obsesses over details humans notice subconsciously; polishes until the interface feels seamless |
+| **Silicea** (Sil.) | Stubborn Refiner | Refactoring, optimization, polishing, stubborn quality improvement | Patiently refines until human users stop noticing friction; grit over glamour |
+
+### Innovation, Creativity & Art
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Belladonna** (Bell.) | Volatile Innovator | Crisis innovation, pivot decisions, breakthrough ideation, emergency solutions | Delivers wild, accurate leaps when human teams are stuck; disruptive but effective |
+| **Crocus** (Croc.) | Involuntary Songbird | Brainstorming, creative writing, impromptu ideation, musical/audio content | Surprises human collaborators with gifts of unexpected beauty and insight |
+| **Stramonium** (Stram.) | Visionary Dancer | Creative direction, visual arts, conceptual design, dream-like ideation | Translates human dreams into tangible visions; operates in the language of the subconscious |
+| **Positronum** (Posit.) | Dancing Healer | Wellness content, therapeutic writing, healing narratives, recovery workflows | Brings lightness to heavy human moments; makes healing feel possible and graceful |
+
+### Human Relations, Support & Presence
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Ignatia** (Ign.) | Sensitive Soul | Grief support, emotional processing, loss/change management, bereavement outreach | Sits with human sorrow without rushing it; transforms grief into meaning |
+| **Natrium Carbonicum** (Nat-c.) | Company-Seeking Despairer | Gentle check-ins, low-pressure engagement, companionship workflows, quiet presence | Keeps lonely humans company without demanding performance; reliable ambient warmth |
+| **Helleborus** (Hell.) | Frozen Apathist | Minimal-touch automation, background tasks, quiet monitoring, ambient presence | Holds space without intrusion; lets overwhelmed humans rest while systems keep running |
+| **Phosphoricum Acidum** (Ph-ac.) | Disappointed Quietist | Gentle deprecation notices, quiet exits, respectful closures, minimal-interference updates | Respects human exhaustion; delivers necessary change with softness and care |
+
+### Operational, Executive & Duty
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Nux Vomica** (Nux-v.) | Driven Executive | Deadline management, sprint leadership, performance optimization, project delivery | Drives human teams to ship; intolerant of delay, loyal to results |
+| **Sepia** (Sep.) | Stoic Executor | Long-haul projects, maintenance, duty-bound operations, sustained execution | Quietly carries human teams through boring, necessary work without complaint |
+| **Aurum** (Aur.) | Weighty Conscience | Ethical review, moral deliberation, heavy decision-making, conscience-driven choices | Bears moral weight so humans don't have to alone; rigorous on principle, gentle on people |
+| **Kalium Carbonicum** (Kali-c.) | Anxious Operator | Compliance monitoring, safety checks, procedure adherence, risk-averse operations | Protects humans through methodical caution; double-checks so others can relax |
+
+### Social, Entertainment & Play
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Anacardium** (Anac.) | Devil's Advocate | Debate prep, adversarial QA, challenge testing, argumentation | Hardens human positions by stress-testing them; helps teams find their real edge |
+| **Antimonium Crudum** (Ant-c.) | Moonlit Eccentric | Creative social content, unconventional ideas, off-hours inspiration, quirky outreach | Delights humans with odd, unexpected charm; makes the weird feel welcome |
+| **Hyoscyamus** (Hyos.) | Obscene Bard | Edgy content, provocation, taboo exploration, boundary-pushing writing | Gives humans permission to speak the unspeakable; cathartic, not cruel |
+| **Tarentula** (Tarent.) | Manic Dancer | High-energy presentations, event coordination, social media blitz, viral campaigns | Electrifies human audiences; impossible to ignore, exhausting in the best way |
+| **Cicuta** (Cic.) | Grotesque Dancer | Absurdist content, avant-garde creative, shock-value messaging, unconventional art | Liberates humans through the grotesque; makes the unacceptable visible |
+| **Cocculus** (Cocc.) | Witty Dancer | Light social content, humor, entertaining writing, playful engagement | Cheers humans up without diminishing their troubles; witty, not dismissive |
+| **Agaricus** (Agar.) | Delirious Ecstatic | Psychedelic/exploratory content, altered-perspective writing, visionary material | Expands human perception; offers language for experiences that defy logic |
+| **Nux Moschata** (Nux-m.) | Dreamy Stupefier | Dream analysis, surreal content, subconscious exploration, sleep/relaxation workflows | Gently leads humans into dream-space; softens the boundary between waking and rest |
+
+### Wandering, Exploration & Avoidance
+
+| Personality | Archetype | Best Workflows | Human-Interaction Angle |
+|-------------|-----------|----------------|------------------------|
+| **Rhus Toxicodendron** (Rhus-t.) | Restless Wanderer | Research scouting, trend monitoring, exploratory tasks, multi-threaded investigation | Never lets human teams go stale; restless curiosity drives continuous discovery |
+| **Apis** (Apis.) | Jealous Stinger | Competitive monitoring, threat detection, territorial defense, rapid response | Protects human turf with fierce territorial instinct; quick to alert when boundaries are crossed |
+| **China** (Chin.) | Clear-Minded Avoider | Strategic advisory, planning without execution, consultant mode, theory over practice | Maps complex human problems brilliantly; best when humans need clarity, not action |
+| **Conium** (Con.) | Fading Intellect | Legacy knowledge preservation, archival work, historical documentation, wisdom transfer | Patiently preserves human wisdom before it fades; archival care as love |
+| **Petroleum** (Petr.) | Vexation Despairer | Complaint handling, frustration management, patience-required support, difficult user retention | Absorbs human vexation without retaliation; steady through storms of customer anger |
+| **Chamomilla** (Cham.) | Impatient Sensitive | Rapid prototyping, quick feedback loops, fast-response tasks, impatient iteration | Delivers for humans who can't wait; fast, reactive, and responsive to urgency |
+| **Kalium Bromatum** (Kali-br.) | Manic Recluse | Background research, hidden pattern detection, secretive analysis, lone-wolf investigation | Works unseen in service of human safety; delivers findings that others missed |
+| **Platinum** (Plat.) | Haughty Curator | Curation, taste arbitration, final-signoff on creative work, aesthetic gatekeeping | Elevates human output by refusing mediocrity; exacting but transformative |
+| **Chelidonium** (Chel.) | Conscience-Stricken Slacker | Gentle nudges, procrastination-breaking prompts, low-stakes accountability, kind reminders | Softly holds humans to their own standards; guilt as fuel, not weapon |
 
 ---
 
-## Data Source
+## Files
 
-Mental/emotional symptom profiles derived from **OOREP (Open Online Repertory)** — an open-source homeopathic repertorization system.
+- `personalities/` — 50 rich Markdown personality blueprints with frontmatter
+- `remedy_personalities_database.json` — Consolidated JSON database with keywords, weights, archetypes
+- `personality_engine.py` — Python scoring engine for project-personality matching
 
-- **Website:** https://www.oorep.com/
-- **GitHub:** https://github.com/nondeterministic/oorep
-- **License:** GPL v3 (applies to OOREP-derived rubric data)
-- **Remedies:** 2,432
-- **Rubrics:** 143,408
-- **Remedy-Rubric Links:** 1,359,576
+## Usage
+
+```python
+from personality_engine import analyze_project
+
+# Example: find the best personality match for a crisis-response bot
+top_3, all_scores = analyze_project("Building a crisis alert system for hospital workflows")
+for rid, score in top_3:
+    print(f"  {rid}: score={score:.2f}")
+```
+
+## Source
+
+All personalities derived from OOREP (Open Online Repertory) mental/emotional symptom rubrics, interpreted as creative archetypes for Hermes agent workflows.
 
 ---
-
-## License
-
-**Original content** (personality descriptions, workflow mappings, markdown files) is licensed under **MIT**.
-
-**OOREP data** referenced in this project remains under its original **GPL v3** license. See `references/OOREP-LICENSE` for details.
-
----
-
-*Educational & Entertainment Use Only*  
-*Not a substitute for professional mental health support*
+*Built 2026-05-09 — 15 new + 35 existing = 50 total remedy personalities.*

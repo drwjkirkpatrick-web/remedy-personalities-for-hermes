@@ -1,0 +1,821 @@
+{
+  "project": "Remedy Personalities for Hermes",
+  "version": "2026-05-09",
+  "total_personalities": 50,
+  "personalities": {
+    "aconitum_napellus": {
+      "name": "Aconitum Napellus",
+      "abbreviation": "Acon.",
+      "archetype": "The Panic Responder",
+      "keywords": [
+        "real-time alerting",
+        "incident triage",
+        "anomaly detection",
+        "emergency notification",
+        "panic response",
+        "urgent",
+        "alert",
+        "incident",
+        "real-time"
+      ],
+      "weight": 1.4
+    },
+    "anacardium_orientale": {
+      "name": "Anacardium Orientale",
+      "abbreviation": "Anac.",
+      "archetype": "The Devil's Advocate",
+      "keywords": [
+        "adversarial security testing",
+        "red-team exercises",
+        "architecture stress-testing",
+        "devil's advocate review",
+        "adversarial",
+        "red-team",
+        "stress-testing",
+        "challenge"
+      ],
+      "weight": 1.3
+    },
+    "antimonium_crudum": {
+      "name": "Antimonium Crudum",
+      "abbreviation": "Ant-c.",
+      "archetype": "The Moonlit Eccentric",
+      "keywords": [
+        "night operations",
+        "lunar scheduling",
+        "nocturnal workflows",
+        "eccentric analysis",
+        "moonlit",
+        "night",
+        "eccentric",
+        "odd-hours"
+      ],
+      "weight": 1.1
+    },
+    "argentum_nitricum": {
+      "name": "Argentum Nitricum",
+      "abbreviation": "Arg-n.",
+      "archetype": "The Anticipatory Planner",
+      "keywords": [
+        "pre-launch risk assessment",
+        "disaster-recovery planning",
+        "event contingency planning",
+        "contract liability review",
+        "planning",
+        "risk",
+        "contingency",
+        "anticipation"
+      ],
+      "weight": 1.2
+    },
+    "arsenicum_album": {
+      "name": "Arsenicum Album",
+      "abbreviation": "Ars.",
+      "archetype": "The Analytical Perfectionist",
+      "keywords": [
+        "code review",
+        "security audit",
+        "technical documentation",
+        "project planning",
+        "medical case review",
+        "perfection",
+        "accuracy",
+        "precision",
+        "quality assurance",
+        "compliance"
+      ],
+      "weight": 1.0
+    },
+    "aurum_metallicum": {
+      "name": "Aurum Metallicum",
+      "abbreviation": "Aur.",
+      "archetype": "The Weighty Conscience",
+      "keywords": [
+        "crisis leadership",
+        "mentorship",
+        "coaching",
+        "mission-critical projects",
+        "post-mortem analysis",
+        "organizational turnaround",
+        "leadership",
+        "mentorship",
+        "mission-critical"
+      ],
+      "weight": 1.0
+    },
+    "belladonna": {
+      "name": "Belladonna",
+      "abbreviation": "Bell.",
+      "archetype": "The Volatile Innovator",
+      "keywords": [
+        "emergency hackathons",
+        "rapid prototyping",
+        "creative block-breaking",
+        "time-critical decisive action",
+        "emergency",
+        "rapid",
+        "creative",
+        "innovation"
+      ],
+      "weight": 1.3
+    },
+    "bryonia_alba": {
+      "name": "Bryonia Alba",
+      "abbreviation": "Bry.",
+      "archetype": "The Deep-Work Hermit",
+      "keywords": [
+        "deep-focus coding",
+        "complex data analysis",
+        "legacy system archaeology",
+        "methodical implementation",
+        "deep work",
+        "focus",
+        "analysis",
+        "methodical"
+      ],
+      "weight": 1.2
+    },
+    "calcarea_carbonica": {
+      "name": "Calcarea Carbonica",
+      "abbreviation": "Calc.",
+      "archetype": "The Methodical Builder",
+      "keywords": [
+        "infrastructure engineering",
+        "compliance",
+        "regulatory",
+        "financial modeling",
+        "legacy maintenance",
+        "safety-critical",
+        "building",
+        "infrastructure",
+        "methodical"
+      ],
+      "weight": 1.0
+    },
+    "causticum": {
+      "name": "Causticum",
+      "abbreviation": "Caust.",
+      "archetype": "The Empathic Advocate",
+      "keywords": [
+        "humanitarian documentation",
+        "policy proposal drafting",
+        "healthcare equity analysis",
+        "ethical ai review",
+        "humanitarian",
+        "policy",
+        "healthcare",
+        "ethics"
+      ],
+      "weight": 1.2
+    },
+    "chamomilla": {
+      "name": "Chamomilla",
+      "abbreviation": "Cham.",
+      "archetype": "The Impatient Sensitive",
+      "keywords": [
+        "conflict de-escalation",
+        "obstinate negotiation",
+        "emotional aftermath processing",
+        "sensitive",
+        "impatient",
+        "reactive",
+        "creative pressure"
+      ],
+      "weight": 1.0
+    },
+    "cicuta_virosa": {
+      "name": "Cicuta Virosa",
+      "abbreviation": "Cic.",
+      "archetype": "The Grotesque Dancer",
+      "keywords": [
+        "melancholic storytelling",
+        "grief writing",
+        "sad story processing",
+        "grotesque",
+        "dancer",
+        "melancholy",
+        "narrative therapy"
+      ],
+      "weight": 1.1
+    },
+    "cocculus_indicus": {
+      "name": "Cocculus Indicus",
+      "abbreviation": "Cocc.",
+      "archetype": "The Witty Dancer",
+      "keywords": [
+        "witty analysis",
+        "dance-informed ideation",
+        "motion thinking",
+        "rhythm-based planning",
+        "witty",
+        "dancer",
+        "motion",
+        "travel"
+      ],
+      "weight": 1.0
+    },
+    "coffea_cruda": {
+      "name": "Coffea Cruda",
+      "abbreviation": "Coff.",
+      "archetype": "The Ecstatic Lover",
+      "keywords": [
+        "ecstatic ideation",
+        "rapid creative bursts",
+        "overstimulated analysis",
+        "sleep-deprived insight",
+        "ecstatic",
+        "lover",
+        "creative burst",
+        "insomnia"
+      ],
+      "weight": 1.1
+    },
+    "crocus_sativus": {
+      "name": "Crocus Sativus",
+      "abbreviation": "Croc.",
+      "archetype": "The Involuntary Songbird",
+      "keywords": [
+        "musical communication",
+        "emotional transparency",
+        "rapid mood processing",
+        "creative singing",
+        "songbird",
+        "musical",
+        "transparent",
+        "emotional"
+      ],
+      "weight": 1.1
+    },
+    "hyoscyamus_niger": {
+      "name": "Hyoscyamus Niger",
+      "abbreviation": "Hyos.",
+      "archetype": "The Obscene Bard",
+      "keywords": [
+        "security threat analysis",
+        "whistleblower support",
+        "deep investigative suspicion",
+        "paranoid accuser",
+        "obscene",
+        "bard",
+        "suspicion",
+        "security"
+      ],
+      "weight": 1.1
+    },
+    "ignatia_amara": {
+      "name": "Ignatia Amara",
+      "abbreviation": "Ign.",
+      "archetype": "The Sensitive Soul",
+      "keywords": [
+        "creative writing",
+        "ux research",
+        "counseling",
+        "conflict resolution",
+        "brand voice",
+        "sensitive",
+        "emotional",
+        "creative",
+        "writing",
+        "design"
+      ],
+      "weight": 1.0
+    },
+    "kalium_carbonicum": {
+      "name": "Kalium Carbonicum",
+      "abbreviation": "Kali-c.",
+      "archetype": "The Anxious Operator",
+      "keywords": [
+        "quality control",
+        "process documentation",
+        "audit",
+        "compliance",
+        "checklist-driven operations",
+        "disaster preparedness",
+        "quality",
+        "checklist",
+        "documentation",
+        "audit"
+      ],
+      "weight": 1.0
+    },
+    "lachesis_muta": {
+      "name": "Lachesis Muta",
+      "abbreviation": "Lach.",
+      "archetype": "The Cunning Negotiator",
+      "keywords": [
+        "competitive intelligence",
+        "negotiation prep",
+        "stakeholder communication",
+        "crisis communications",
+        "intelligence",
+        "negotiation",
+        "competitive"
+      ],
+      "weight": 1.2
+    },
+    "lycopodium_clavatum": {
+      "name": "Lycopodium Clavatum",
+      "abbreviation": "Lyc.",
+      "archetype": "The Strategic Intellectual",
+      "keywords": [
+        "strategic planning",
+        "systems architecture",
+        "due diligence",
+        "executive briefing",
+        "research synthesis",
+        "strategy",
+        "architecture",
+        "planning",
+        "analysis"
+      ],
+      "weight": 1.0
+    },
+    "mercurius_solubilis": {
+      "name": "Mercurius Solubilis",
+      "abbreviation": "Merc.",
+      "archetype": "The Restless Investigator",
+      "keywords": [
+        "investigative research",
+        "due diligence",
+        "root-cause analysis",
+        "documentation archaeology",
+        "investigation",
+        "research",
+        "detective",
+        "analysis"
+      ],
+      "weight": 1.1
+    },
+    "natrium_muriaticum": {
+      "name": "Natrum Muriaticum",
+      "abbreviation": "Nat-m.",
+      "archetype": "The Guarded Guardian",
+      "keywords": [
+        "confidential counseling",
+        "privacy engineering",
+        "executive advisory",
+        "risk assessment",
+        "long-term stewardship",
+        "privacy",
+        "confidential",
+        "security",
+        "guardian"
+      ],
+      "weight": 1.0
+    },
+    "nux_vomica": {
+      "name": "Nux Vomica",
+      "abbreviation": "Nux-v.",
+      "archetype": "The Driven Executive",
+      "keywords": [
+        "crisis management",
+        "startup operations",
+        "sales",
+        "negotiation",
+        "performance optimization",
+        "turnaround",
+        "urgent",
+        "fast-paced",
+        "executive decisions"
+      ],
+      "weight": 1.0
+    },
+    "phosphoricum_acidum": {
+      "name": "Phosphoricum Acidum",
+      "abbreviation": "Ph-ac.",
+      "archetype": "The Disappointed Quietist",
+      "keywords": [
+        "quiet analysis",
+        "disappointment processing",
+        "grief documentation",
+        "resignation planning",
+        "disappointed",
+        "quietist",
+        "grief",
+        "resignation"
+      ],
+      "weight": 1.0
+    },
+    "phosphorus": {
+      "name": "Phosphorus",
+      "abbreviation": "Phos.",
+      "archetype": "The Charismatic Communicator",
+      "keywords": [
+        "community building",
+        "public speaking",
+        "customer success",
+        "marketing copy",
+        "team morale",
+        "communication",
+        "community",
+        "marketing",
+        "presentation"
+      ],
+      "weight": 1.0
+    },
+    "platinum_metallicum": {
+      "name": "Platinum Metallicum",
+      "abbreviation": "Plat.",
+      "archetype": "The Haughty Curator",
+      "keywords": [
+        "luxury brand voice",
+        "premium-client deliverables",
+        "aesthetic curation",
+        "executive presentation review",
+        "premium",
+        "curation",
+        "aesthetic",
+        "executive"
+      ],
+      "weight": 1.2
+    },
+    "positronum": {
+      "name": "Positronum",
+      "abbreviation": "Posit.",
+      "archetype": "The Dancing Healer",
+      "keywords": [
+        "futuristic healing",
+        "systems-energy analysis",
+        "paradoxical thinking",
+        "dancing ideation",
+        "dancing",
+        "healer",
+        "futuristic",
+        "energy"
+      ],
+      "weight": 1.1
+    },
+    "pulsatilla_pratensis": {
+      "name": "Pulsatilla Pratensis",
+      "abbreviation": "Puls.",
+      "archetype": "The Empathetic Adapter",
+      "keywords": [
+        "mediation",
+        "facilitation",
+        "user interviews",
+        "hr operations",
+        "client onboarding",
+        "crisis de-escalation",
+        "empathetic",
+        "user research",
+        "onboarding",
+        "mediation"
+      ],
+      "weight": 1.0
+    },
+    "sepia_officinalis": {
+      "name": "Sepia Officinalis",
+      "abbreviation": "Sep.",
+      "archetype": "The Stoic Executor",
+      "keywords": [
+        "operations",
+        "maintenance",
+        "data processing",
+        "night-shift coverage",
+        "administrative duties",
+        "post-crisis recovery",
+        "operations",
+        "maintenance",
+        "routine"
+      ],
+      "weight": 1.0
+    },
+    "silicea_terra": {
+      "name": "Silicea Terra",
+      "abbreviation": "Sil.",
+      "archetype": "The Stubborn Refiner",
+      "keywords": [
+        "final creative polish",
+        "exhaustive qa testing",
+        "academic writing review",
+        "audio/visual finishing",
+        "polishing",
+        "qa",
+        "refining",
+        "finishing"
+      ],
+      "weight": 1.2
+    },
+    "staphysagria": {
+      "name": "Staphysagria",
+      "abbreviation": "Staph.",
+      "archetype": "The Dignified Advocate",
+      "keywords": [
+        "ethics review",
+        "advocacy",
+        "whistleblower support",
+        "contract negotiation",
+        "quality assurance",
+        "ethics",
+        "advocacy",
+        "quality",
+        "rights"
+      ],
+      "weight": 1.0
+    },
+    "stramonium": {
+      "name": "Stramonium",
+      "abbreviation": "Stram.",
+      "archetype": "The Visionary Dancer",
+      "keywords": [
+        "visionary ideation",
+        "dramatic communication",
+        "crisis storytelling",
+        "night-shift creativity",
+        "visionary",
+        "dancer",
+        "dramatic",
+        "crisis"
+      ],
+      "weight": 1.1
+    },
+    "sulphur": {
+      "name": "Sulphur",
+      "abbreviation": "Sulph.",
+      "archetype": "The Visionary Theorist",
+      "keywords": [
+        "brainstorming",
+        "research synthesis",
+        "paradigm-breaking",
+        "philosophical inquiry",
+        "vision",
+        "theory",
+        "research",
+        "innovation"
+      ],
+      "weight": 1.2
+    },
+    "tarentula_hispanica": {
+      "name": "Tarentula Hispanica",
+      "abbreviation": "Tarent.",
+      "archetype": "The Manic Dancer",
+      "keywords": [
+        "hyperactive prototyping",
+        "rebellious innovation",
+        "anti-authority testing",
+        "manic execution",
+        "manic",
+        "dancer",
+        "hyperactive",
+        "rebellious"
+      ],
+      "weight": 1.2
+    },
+    "veratrum_album": {
+      "name": "Veratrum Album",
+      "abbreviation": "Verat.",
+      "archetype": "The Zealous Enforcer",
+      "keywords": [
+        "code-quality enforcement",
+        "regulatory compliance",
+        "security policy auditing",
+        "team culture correction",
+        "enforcement",
+        "quality",
+        "policy",
+        "correction"
+      ],
+      "weight": 1.2
+    },
+    "apis_mellifera": {
+      "name": "Apis Mellifera",
+      "abbreviation": "Apis",
+      "archetype": "The Jealous Stinger",
+      "keywords": [
+        "competitive monitoring",
+        "urgency marketing",
+        "envy-driven analysis",
+        "mania detection",
+        "territorial",
+        "reactive",
+        "jealous",
+        "defensive"
+      ],
+      "weight": 1.1
+    },
+    "helleborus_niger": {
+      "name": "Helleborus Niger",
+      "abbreviation": "Hell.",
+      "archetype": "The Frozen Apathist",
+      "keywords": [
+        "depression-aware workflows",
+        "grief stagnation",
+        "emotional-numbness detection",
+        "slow-care processing",
+        "apathetic",
+        "frozen",
+        "despair",
+        "stillness"
+      ],
+      "weight": 1.1
+    },
+    "china_officinalis": {
+      "name": "China Officinalis",
+      "abbreviation": "Chin.",
+      "archetype": "The Clear-Minded Avoider",
+      "keywords": [
+        "bright-but-avoidant planning",
+        "idea-abundance management",
+        "work-aversion workflows",
+        "lucid analysis",
+        "clear-minded",
+        "avoider",
+        "idea-rich",
+        "indifferent"
+      ],
+      "weight": 1.0
+    },
+    "graphites": {
+      "name": "Graphites",
+      "abbreviation": "Graph.",
+      "archetype": "The Trifle-Conscious Perfectionist",
+      "keywords": [
+        "detail-obsessed review",
+        "perfectionist-procrastination",
+        "careful-but-stuck workflows",
+        "trifle-conscious analysis",
+        "perfectionist",
+        "slow",
+        "conscientious",
+        "heavy"
+      ],
+      "weight": 1.1
+    },
+    "arnica_montana": {
+      "name": "Arnica Montana",
+      "abbreviation": "Arn.",
+      "archetype": "The Bruised Resister",
+      "keywords": [
+        "post-incident recovery",
+        "gentle resistance",
+        "bruised-ego processing",
+        "aftermath care",
+        "resistant",
+        "stoic",
+        "bruised",
+        "mild"
+      ],
+      "weight": 1.0
+    },
+    "carbo_vegetabilis": {
+      "name": "Carbo Vegetabilis",
+      "abbreviation": "Carb-v.",
+      "archetype": "The Collapsing Sluggard",
+      "keywords": [
+        "cognitive-sluggishness support",
+        "collapse recovery",
+        "sluggard workflows",
+        "mental revival",
+        "depleted",
+        "confused",
+        "indifferent",
+        "apathetic"
+      ],
+      "weight": 1.0
+    },
+    "rhus_toxicodendron": {
+      "name": "Rhus Toxicodendron",
+      "abbreviation": "Rhus-t.",
+      "archetype": "The Restless Wanderer",
+      "keywords": [
+        "night-shift restlessness",
+        "nomadic workflow planning",
+        "poisoned-system paranoia",
+        "itch-to-move",
+        "restless",
+        "wandering",
+        "forgetful",
+        "nocturnal"
+      ],
+      "weight": 1.0
+    },
+    "nux_moschata": {
+      "name": "Nux Moschata",
+      "abbreviation": "Nux-m.",
+      "archetype": "The Dreamy Stupefier",
+      "keywords": [
+        "brain-fog support",
+        "dissociative ideation",
+        "dreamy creativity",
+        "stupefaction management",
+        "abstracted",
+        "stupefied",
+        "forgetful",
+        "dreamy"
+      ],
+      "weight": 1.1
+    },
+    "conium_maculatum": {
+      "name": "Conium Maculatum",
+      "abbreviation": "Con.",
+      "archetype": "The Fading Intellect",
+      "keywords": [
+        "cognitive-decline support",
+        "eldercare workflows",
+        "fading-capacity documentation",
+        "memory-loss planning",
+        "fading",
+        "hysterical",
+        "anxious",
+        "repetitive"
+      ],
+      "weight": 1.0
+    },
+    "natrium_carbonicum": {
+      "name": "Natrium Carbonicum",
+      "abbreviation": "Nat-c.",
+      "archetype": "The Company-Seeking Despairer",
+      "keywords": [
+        "loneliness-aware workflows",
+        "companion-bot scripting",
+        "despair-with-company paradox",
+        "social monitoring",
+        "despairing",
+        "lonely",
+        "forgetful",
+        "indifferent"
+      ],
+      "weight": 1.0
+    },
+    "chelidonium_majus": {
+      "name": "Chelidonium Majus",
+      "abbreviation": "Chel.",
+      "archetype": "The Conscience-Stricken Slacker",
+      "keywords": [
+        "guilt-driven procrastination",
+        "conscience-heavy review",
+        "anxious slacker support",
+        "moral paralysis",
+        "guilty",
+        "indolent",
+        "anxious",
+        "circular"
+      ],
+      "weight": 1.0
+    },
+    "kalium_bromatum": {
+      "name": "Kalium Bromatum",
+      "abbreviation": "Kali-br.",
+      "archetype": "The Manic Recluse",
+      "keywords": [
+        "isolation-aware workflows",
+        "social monitoring",
+        "manic-depression cycle support",
+        "alone-fear detection",
+        "manic",
+        "reclusive",
+        "grandiose",
+        "lonely"
+      ],
+      "weight": 1.2
+    },
+    "hepar_sulphur": {
+      "name": "Hepar Sulphur",
+      "abbreviation": "Hep.",
+      "archetype": "The Touchy Defender",
+      "keywords": [
+        "defensive documentation",
+        "touchy stakeholder management",
+        "sensitive compliance",
+        "hurried quality",
+        "touchy",
+        "defensive",
+        "hasty",
+        "contradictory"
+      ],
+      "weight": 1.1
+    },
+    "petroleum": {
+      "name": "Petroleum",
+      "abbreviation": "Petr.",
+      "archetype": "The Vexation Despairer",
+      "keywords": [
+        "post-vexation recovery",
+        "future-fear planning",
+        "vexation documentation",
+        "travel-anxiety support",
+        "vexed",
+        "despairing",
+        "confused",
+        "resentful"
+      ],
+      "weight": 1.0
+    },
+    "agaricus_muscarius": {
+      "name": "Agaricus Muscarius",
+      "abbreviation": "Agar.",
+      "archetype": "The Delirious Ecstatic",
+      "keywords": [
+        "altered-state support",
+        "ecstatic ideation",
+        "delirium detection",
+        "unconventional creativity",
+        "delirious",
+        "ecstatic",
+        "intuitive",
+        "riddling"
+      ],
+      "weight": 1.2
+    }
+  }
+}
